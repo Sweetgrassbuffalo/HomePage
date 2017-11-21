@@ -1,0 +1,74 @@
+/**
+ * Main Navigation
+ */
+
+#m_menu {
+	width: auto;
+	height: 32px;
+	padding-left: 266px;
+	background: #bd8b51 /* url('/images/bgs/nav.gif') repeat-x*/;
+}
+
+#m_menu UL {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  z-index: 20;
+}
+
+#m_menu UL LI {
+  display: inline;
+}
+
+#m_menu UL LI {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  float: left;
+  color: #666666;
+  font-size: 11px;
+  line-height: 23px;
+  white-space: nowrap;
+}
+
+#m_menu UL LI A {
+  display: block;
+  padding: 0px 15px;
+  color: #f8e7cb;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 32px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#m_menu UL LI A:hover {
+	color: #ffffff;
+	background: #472310 /* url('/images/bgs/nav_over.gif') top center repeat-x */;
+}
+
+#m_menu UL LI A.active,
+#m_menu UL LI A.active:hover {
+	color: #ffffff;
+	background: #472310 /* url('/images/bgs/nav_over.gif') top center repeat-x */;
+}
+
+/**
+ * Drop Down Sub Menus
+ */
+
+DIV.m_submenu {
+  position: absolute;
+  visibility: hidden;
+  border: 1px solid #472310;
+  z-index: 30;
+}
+
+DIV.m_submenu A,
+DIV.m_submenu A:active,
+DIV.m_submenu A:visited,
+DIV.m_submenu A:hover {
+  color: #f8e7cb;
+  background-color: #bd8b51;
+}
