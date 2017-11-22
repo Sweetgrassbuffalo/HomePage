@@ -39,17 +39,7 @@
   <div id="m_menu">
     <ul>
       <li><a href="/" class="active">Home</a></li>
-      <li>
-        <a href="./shop.html" onmouseover="mopen(1);" onmouseout="mclosetime();">Shop</a>
-        <div id="menu1" class="m_submenu" onmouseover="mcancelclosetime()" onmouseout="mclosetime();">
-          <a href="./buffalo.html" style="background-image: none;">Buffalo</a>
-  <!--        <a href="./elk.php" style="background-image: none;">Elk</a> -->
- <!--    <a href="/cgi-bin/commerce.cgi?preadd=action&amp;key=825604-0011" style="background-image: none;">Trout</a>  -->
-    	  <a href="./jerky.html" style="background-image: none;">Jerky</a>
- <!--         <a href="/cgi-bin/commerce.cgi?search=action&amp;category=HABA&amp;keywords=all" style="background-image: none;">Ham and Bacon</a> -->
-          <a href="./specials.html" style="background-image: none;">Specials</a>
-        </div>
-      </li>
+      <li><a href="http://sweetgrassbuffalo.com" onmouseover="mopen(1);" onmouseout="mclosetime();">Shop</a></li>
       <li><a href="./gifts.html">Gifts</a></li>
       <li><a href="./whybuffalo.html">Buffalo Meat Facts</a></li>
       <!-- <li><a href="./elk.php">Why Elk?</a></li> -->
@@ -228,125 +218,19 @@
 	<!-- Aplus Server -->
     <div id="right">
 
-      <!-- SEARCH -->
-
-      <div id="search" style="position: relative; top: -9px; background: #f2eeec; border: 1px solid #472310;">
-
-        <form name="pdgsearch" action="/cgi-bin/commerce.cgi" method="get">
-        <input type="hidden" name="search" value="action" />
-        <input type="hidden" name="sortorder" value="ascending" />
-        <input type="hidden" name="sortkey" value="description" />
-
-          <table cellspacing="5" cellpadding="0">
-            <tr>
-              <td nowrap="nowrap"><b style="color: #000;">Search:</b></td>
-              <td><input type="text" name="keywords" value="" style="width: 100px; border: 1px solid #472310;" /></td>
-              <td><input type="image" src="./images/buttons/go.gif" style="width: 18px; height: 18px;" alt="Go" /></td>
-            </tr>
-          </table>
-
-        </form>
-
-      </div>
-
-
       <!-- VIEW CART -->
 
       <div id="viewcart">
-<h1 align="center" > Shopping Cart</h1>
-        <div class="padding">
-          <a href="/cgi-bin/commerce.cgi?display=action">View Cart</a><br />
+        <h1 align="center" > Shopping Cart</h1>
+          <div class="padding">
+            <a href="./service.html">Customer Service</a><br />
+            <a href="./catalog.html">Order Our Catalog</a><br />
 
+          </div>
 
-          <a href="https://www.sweetgrassbuffalo.com/cgi-bin/commerce.cgi?checkout">Checkout</a><br />
-          <a href="./cgi-bin/commerce.cgi?login">Your Account</a><br />
-          <a href="./service.php">Customer Service</a><br />
-          <a href="./catalog.php">Order Our Catalog</a><br />
-
-        </div>
-
-        <div> <!-- <img src="images/bgs/cart_bottom.gif" width="190" height="20" alt="" />--></div>
+      <div> <!-- <img src="images/bgs/cart_bottom.gif" width="190" height="20" alt="" />--></div>
 
       </div>
-
-      <!-- RECIPES AND GIFTS -->
-<table width="190">
-<tr>
-<td width="90" bgcolor=#e7bb72 align="center" >
-      <a href="#" onclick="document.getElementById('gifts').style.display='none'; document.getElementById('recipes').style.display='block'; return false;">
-      <h1>Recipes</h1>
-      <!--<img src="./images/headlines/recipes.gif" width="95" height="28" alt="Recipes" />--></a>
-       </td>
-      <td width="90" bgcolor=#472310 align="center" >
-      <a href="#" onclick="document.getElementById('recipes').style.display='none'; document.getElementById('gifts').style.display='block'; return false;">
-       <h1>Gifts</h1> <!-- <img src="file://///Nexus2/users/ejt/Documents/sweetgrassbuffalo/gifts1.gif" width="95" height="28" alt="Gifts" />--></a>
-      </td>
-      </tr>
-     </table>
-
-      <div id="recipes" style="display: none;">
-
-        <div class="padding">
-
-
-
-
-          <p class="title">Buffalo Prime Rib</p>
-
-          <p>Enjoy a wonderfully seasoned Prime Rib tonight.</p>
-
-          <p><a href="./recipes.php#rib1">View Recipe</a> &rsaquo;</p>
-
-        </div>
-
-        <div><img src="./images/bgs/recipes_bottom.gif" width="190" height="15" alt="" /></div>
-
-      </div>
-
-
-
-
-      <div id="gifts">
-
-        <div class="padding">
-
-
-		  <p class="title">Family Pack - $xx.xx</p>
-
-          <p><b>Includes:</b><br />
-          <span style="font-size: 9px;">
-		  1/2 lb  Buffalo Salami<br />
-		  1/2 lb xxx Salami<br />
-		  1oz xxx Buffalo Jerky<br />
-		  1oz xxxo Jerky Sticks<br />
-		  2 jars assorted Gourmet Mustard<br />
-		  6 Huckleberry Chocolates </span></p>
-
-          <p><a href="./cgi-bin/commerce.cgi?preadd=action&amp;key=825604-00551">Shop Now</a> &rsaquo;</p>
-
-		  <hr />
-
-		  <p class="title"> Need a Quick Gift?</p>
-
-		  <p>Our Gift Certificates come in increments of $25, $50, $100 or $200.</p>
-
-		  <p><a href="./cgi-bin/commerce.cgi?preadd=action&amp;key=825604-0360">Shop Now</a> &rsaquo;</p>
-
-
-        </div>
-
-        <div><!-- <img src="./images/bgs/gifts_bottom.gif" width="190" height="15" alt="" /> --></div>
-
-      </div>
-
-
-
-    </div>
-
-
-    <div class="clear"></div>
-
-  </div>
 
   <!-- FOOTER -->
 
