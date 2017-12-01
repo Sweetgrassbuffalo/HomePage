@@ -1,0 +1,27 @@
+[{
+  "language": "English",
+  "i18n": "en",
+  "ns": "example-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "examplePaymentProviderLabel": "Charge Anywhere",
+          "examplePaymentProviderTitle": "Charge Anywhere"
+        },
+        "dashboard": {
+          "examplePaymentProviderLabel": "Charge Anywhere",
+          "examplePaymentProviderTitle": "Charge Anywhere",
+          "examplePaymentProviderDescription": "Charge Anywhere Method"
+        },
+        "paymentSettings": {
+          "examplePaymentLabel": "Charge Anywhere",
+          "examplePaymentSettingsLabel": "Charge Anywhere",
+          "exampleCredentials": "This is the Charge Anywhere payment method setting.",
+          "apiClientId": "API Client ID, type in any order of numbers",
+          "supportedMethodsLabel": "Payment provider supported methods, only authorize works"
+        }
+      }
+    }
+  }
+}]
