@@ -1,5 +1,5 @@
-import { Components } from "@reactioncommerce/reaction-components";
-import { replaceComponent } from "@reactioncommerce/reaction-components";
+import React, { Component } from "react";
+import { replaceComponent } from "/imports/plugins/core/layout/lib/components";
 
 const MyCustomNavbar = (props) => (
   <nav>
