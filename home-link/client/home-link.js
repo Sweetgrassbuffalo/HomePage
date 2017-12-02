@@ -1,4 +1,5 @@
 import { Components } from "@reactioncommerce/reaction-components";
+import { replaceComponent } from "@reactioncommerce/reaction-components";
 
 const MyCustomNavbar = (props) => (
   <nav>
@@ -15,3 +16,6 @@ const MyCustomNavbar = (props) => (
     <Components.MainDropdown />
   </nav>
 );
+
+
+replaceComponent("NavBar", MyCustomNavbar);
