@@ -1,0 +1,26 @@
+// Import the main.less file from the base reaction theme
+// {} means start from the root of meteor instance
+// you can also include CSS from node_modules by doing {}/node_modules/<path_to_module_css>
+@import "../../node_modules/slick-carousel/slick/slick.less";
+@import "../../node_modules/slick-carousel/slick/slick-theme.less";
+@import "{}/imports/plugins/included/default-theme/client/styles/main.less";
+
+// Override any variables from the default theme
+//@navbar-default-bg: #4c3a46;
+@navbar-default-bg: #83613A;
+@navbar-default-color: #AAAAAA;
+@navbar-height: 50px;
+
+@cart-icon-bg: #492813;
+@cart-icon-badge:  #E4bb73;
+
+#main {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+@media (max-width: 700px) {
+  .rui.navbar .search {
+    width: 50px;
+  }
+}
