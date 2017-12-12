@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { replaceComponent } from "/imports/plugins/core/layout/lib/components";
+import { Components, replaceComponent } from "/imports/plugins/core/components/lib";
 
 const MyCustomNavbar = (props) => (
   <nav>
