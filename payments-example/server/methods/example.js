@@ -1,3 +1,4 @@
+console.log("made it to example");
 /* eslint camelcase: 0 */
 // meteor modules
 import { Meteor } from "meteor/meteor";
